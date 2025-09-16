@@ -1,4 +1,4 @@
-# Cover — CO2_prediction_BiLSTM
+# CO2_prediction_BiLSTM
 
 **Project:** Surface seawater CO₂ prediction (μatm) using a Bidirectional LSTM  
 **Author:** Data Analysis Team  
