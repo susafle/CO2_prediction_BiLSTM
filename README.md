@@ -41,10 +41,13 @@ pip install numpy pandas scikit-learn tensorflow matplotlib seaborn
 - Log hyperparameters and metrics (e.g., MLflow or CSV exports).  
 - Check for seasonal biases before interpreting feature importance.
 
+## More info:
+This work has been carried out thanks to the data obtained from the DICHOSO project ([https://doi.org/10.20351/29HE20240312](https://doi.org/10.20351/29HE20240312)). Funding for this work was supported by the DICHOSO project (PID2021-125783OB-100). SF staff hired under the Generation D initiative, promoted by Red.es, an organization affiliated with the Ministry for Digital Transformation and the Civil Service, for attracting and retaining talent through grants and training contracts, financed by the Recovery, Transformation, and Resilience Plan through the European Union’s Next Generation funds. This work contributes to the CSIC Interdisciplinary Thematic Platform, OCEANS+, and the Conexión PolarCSIC hub.
+
 ---
 
-# Installation Instructions:
-======================
+# # Installation Instructions:
+==============================
 
 Step 1: Create virtual environment
 python -m venv bilstm_env
