@@ -1,22 +1,42 @@
-# Python Dependencies for BiLSTM CO2 Prediction
+# BiLSTM CO2 Prediction - Requirements
+# Compatible with Mac M1/M2/M3 and systems without AVX support
 
-# Data manipulation
-pandas>=1.3.0
-numpy>=1.21.0
+# Core dependencies - install in this exact order
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
 
-# Machine Learning and Deep Learning
-tensorflow>=2.8.0
-scikit-learn>=1.0.0
+# TensorFlow installation (choose based on your system):
+# For Mac M1/M2/M3 or systems with AVX issues:
+tensorflow==2.12.0  # Install with --no-deps flag
 
-# Visualization
-matplotlib>=3.5.0
+# Alternative TensorFlow options if above doesn't work:
+# tensorflow-macos==2.12.0  # Mac ARM native (if available)
+# tensorflow-cpu>=2.12.0    # CPU-only version for other systems
 
-# Model interpretability
-shap>=0.40.0
+# Optional: Jupyter notebook support
+ipython>=7.0.0
+jupyter>=1.0.0
 
-# Model persistence
-joblib>=1.1.0
-
-# Additional common dependencies for scientific analysis
-scipy>=1.7.0
-seaborn>=0.11.0
+# Installation Instructions:
+# ======================
+# 
+# Step 1: Create virtual environment
+# python -m venv bilstm_env
+# source bilstm_env/bin/activate  # Linux/Mac
+# bilstm_env\Scripts\activate     # Windows
+# 
+# Step 2: Install TensorFlow carefully (IMPORTANT)
+# pip install tensorflow==2.12.0 --no-deps
+# 
+# Step 3: Install remaining dependencies
+# pip install numpy==1.23.5 pandas==1.5.3 scikit-learn==1.2.2 matplotlib==3.7.1
+# 
+# Step 4: Test installation
+# python -c "import tensorflow as tf; print('TensorFlow version:', tf.__version__)"
+#
+# Troubleshooting:
+# - If you get AVX/JAX errors: Use --no-deps flag with tensorflow
+# - Mac users: Ensure you're using the correct Python architecture
+# - If tensorflow==2.12.0 not available: Try tensorflow>=2.12.0

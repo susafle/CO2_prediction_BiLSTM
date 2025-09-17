@@ -43,4 +43,24 @@ pip install numpy pandas scikit-learn tensorflow matplotlib seaborn
 
 ---
 
-
+# Installation Instructions:
+# ======================
+# 
+# Step 1: Create virtual environment
+# python -m venv bilstm_env
+# source bilstm_env/bin/activate  # Linux/Mac
+# bilstm_env\Scripts\activate     # Windows
+# 
+# Step 2: Install TensorFlow carefully (IMPORTANT)
+# pip install tensorflow==2.12.0 --no-deps
+# 
+# Step 3: Install remaining dependencies
+# pip install numpy==1.23.5 pandas==1.5.3 scikit-learn==1.2.2 matplotlib==3.7.1
+# 
+# Step 4: Test installation
+# python -c "import tensorflow as tf; print('TensorFlow version:', tf.__version__)"
+#
+# Troubleshooting:
+# - If you get AVX/JAX errors: Use --no-deps flag with tensorflow
+# - Mac users: Ensure you're using the correct Python architecture
+# - If tensorflow==2.12.0 not available: Try tensorflow>=2.12.0
