@@ -249,7 +249,7 @@ python -c "import tensorflow as tf; print('TensorFlow version:', tf.__version__)
 **Ocean Acidification Studies • Climate Change Monitoring • Antarctic Research**
 
 ### 📚 **Publications**
-*Flecha et al., 2025. Integrated meteocean and seismic dataset for AI-based seawater CO₂ estimation at Deception Island, Antarctica. Scientific Data.*
+*Flecha et al., 2025. Integrated meteocean and seismic dataset for AI-based seawater CO₂ estimation at Deception Island, Antarctica. Scientific Data. Submitted*
 
 ### 🏛️ **Institution**
 **Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC)**
@@ -266,22 +266,22 @@ python -c "import tensorflow as tf; print('TensorFlow version:', tf.__version__)
 
 ### 👩‍🔬 **Author**
 **Dr. Susana Flecha**
-Marine Biogeochemistry
+
+Marine Biogeochemistry & AI
 ICMAN-CSIC
 
 </td>
 <td width="33%" align="center">
 
 ### 📧 **Contact**
-Research Collaboration
-Technical Support
-Data Access
+
+susana.flecha@csic.es
 
 </td>
 <td width="33%" align="center">
 
 ### 🔗 **Resources**
-DIGITAL.CSIC Repository
+
 Scientific Data Portal
 Code Documentation
 
