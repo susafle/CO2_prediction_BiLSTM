@@ -189,20 +189,17 @@ model = Sequential([
 
 <div style="background: #e3f2fd; padding: 15px; border-radius: 8px; text-align: center;">
 <strong>🎯 Spatial Independence</strong><br>
-GroupKFold ensures robust<br>
-geographic generalization
+GroupKFold ensures robust geographic generalization
 </div>
 
 <div style="background: #f3e5f5; padding: 15px; border-radius: 8px; text-align: center;">
 <strong>⏱️ Temporal Patterns</strong><br>
-10-step windows capture<br>
-short-term dynamics
+10-step windows capture short-term dynamics
 </div>
 
 <div style="background: #e8f5e8; padding: 15px; border-radius: 8px; text-align: center;">
 <strong>🧠 Feature Intelligence</strong><br>
-Permutation importance<br>
-reveals key drivers
+Permutation importance reveals key drivers
 </div>
 
 </div>
