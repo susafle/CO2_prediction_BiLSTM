@@ -264,7 +264,7 @@ python -c "import tensorflow as tf; print('TensorFlow version:', tf.__version__)
 <tr>
 <td width="33%" align="center">
 
-### 👩‍🔬 **Author**
+### 👩🏻‍🔬 **Author**
 **Dr. Susana Flecha**
 
 Marine Biogeochemistry & AI
