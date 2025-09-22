@@ -147,7 +147,7 @@ model = Sequential([
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white;">
 
-**🔍 Windowing Strategy**: 10 consecutive time steps → 1 prediction
+**🔍 Windowing Strategy**: 10 consecutive time steps → 1 prediction<br>
 **📐 Scaling**: StandardScaler for features and target
 **🗂️ Grouping**: Latitude × 500 for spatial bins
 **⚡ Optimization**: RMSprop with 0.0005 learning rate
