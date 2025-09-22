@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/License-Research-green.svg)](#)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](#)
 
-**🔬 Scientific Deep Learning • 🌍 Climate Research • 📊 Time Series Prediction**
+**🔬 Scientific Deep Learning • 🌍 Climate Research • 📊 Time Series Prediction • 🧩 Data gap filling**
 
 </div>
 
